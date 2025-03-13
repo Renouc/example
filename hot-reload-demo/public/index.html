@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hot Reload Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- LiveReload 脚本 -->
+    <script>
+      document.write(
+        '<script src="http://' +
+          (location.host || "localhost").split(":")[0] +
+          ':35729/livereload.js?snipver=1"></' +
+          "script>"
+      );
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hot Reload Demo</h1>
+      <p>尝试修改 styles.css 或 index.html，保存后页面将自动刷新</p>
+      <div class="color-box">这个框的颜色会变化</div>
+    </div>
+  </body>
+</html>
