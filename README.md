@@ -25,3 +25,7 @@ Express: 轻量级 Web 服务器
 node-watch: 高效的文件系统监控
 
 livereload: 浏览器自动刷新解决方案
+
+## graphql-demo
+
+一个 GraphQL API 服务演示项目，展示如何使用 Node.js 构建一个 GraphQL API 服务，并使用 Apollo Client 在浏览器中调用 API。
