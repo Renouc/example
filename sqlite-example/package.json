@@ -1,0 +1,16 @@
+{
+  "name": "sqlite-example",
+  "version": "1.0.0",
+  "description": "A simple CLI application for managing users in a SQLite database",
+  "main": "index.js",
+  "bin": {
+    "sql-cli": "./bin/sql-cli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^11.9.1",
+    "commander": "^13.1.0"
+  }
+}
